@@ -7,8 +7,6 @@ const playRound = () => {
   const userAnswer = prompt(`Пожалуйста сложите числа ${number} и ${number2}. Запишите полученный ответ в строку ниже.`);
   const correctAnswer = number + number2;
   
-  console.log(correctAnswer, userAnswer);
-
   return parseInt(userAnswer.trim()) === correctAnswer;
 }
 
